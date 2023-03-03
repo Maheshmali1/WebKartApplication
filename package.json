@@ -9,7 +9,7 @@
   },
   "engines" : { 
     "node" : ">=14.20.1" 
-  }
+  },
   "author": "Mahesh Mali",
   "license": "ISC",
   "dependencies": {
