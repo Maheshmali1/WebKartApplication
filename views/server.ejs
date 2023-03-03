@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+   
+    <title>serverTestPage</title>
+</head>
+<body>
+    <h1>Server testing page</h1>
+    <h2><%= trolleyName %></h2>
+    <form action="/<%= trolleyName %>" method="post">
+        <div>
+            <input type="text" name="barcodeId" placeholder="Enter bardcodeId">
+            <button type="submit" name="trolleyName" value="<%= trolleyName %>">Add Item</button>
+        </div>
+    </form>
+</body>
+</html>
