@@ -50,7 +50,7 @@ app.get("/server/:serverNo/:barcodeId", (req, res) => {
                             });
 
                             newtrolly.save();
-                            res.redirect("/" + trolleyNo);
+                            res.send("added product successfully.");
                         }
                         else {
                             let flag = false;
@@ -68,7 +68,8 @@ app.get("/server/:serverNo/:barcodeId", (req, res) => {
                             }
 
                             foundTrolley.save();
-                            res.redirect("/" + trolleyNo);
+                            // res.redirect("/" + trolleyNo);
+                            res.send("added product successfully.");
 
                         }
                     }
