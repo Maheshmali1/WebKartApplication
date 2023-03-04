@@ -68,7 +68,7 @@ app.get("/server/:serverNo/:barcodeId", (req, res) => {
                             }
 
                             foundTrolley.save();
-                            // res.redirect("/" + trolleyNo);
+                            
                             res.send("added product successfully.");
 
                         }
